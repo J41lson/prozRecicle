@@ -1,3 +1,58 @@
-# reciclaveis
-Criação de Design no Figma >>
-https://www.figma.com/design/QPU9Kd6tl8Ios3HTT2kgwq/RECICLAGEM?node-id=0-1&t=Xz0Tkbzkc7XFK1N1-0
+<div align="center">
+  <img src="https://imgur.com/ewED9Pc.png" alt="PROZrecicle Logo" width="300">
+</div>
+
+**PROZrecicle** é um site de reciclagem e práticas sustentáveis. Nossa missão é educar e incentivar as pessoas a reciclarem e adotarem um estilo de vida mais ecológico.
+
+## Índice
+
+- [Descrição](#descrição)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Contribuição](#contribuição)
+- [Contribuidores](#Contribuidores)
+
+## Descrição
+
+O site **PROZrecicle** oferece recursos educacionais sobre reciclagem, notícias sobre sustentabilidade, e ferramentas para ajudar os usuários a reciclarem de maneira mais eficaz.
+
+## Instalação
+
+Para executar este projeto localmente, siga estas etapas:
+
+1. Clone o repositório:
+    ```sh
+    git clone https://github.com/J41lson/prozRecicle
+    ```
+
+2. Navegue até o diretório do projeto:
+    ```sh
+    cd PROZrecicle
+    ```
+
+3. Instale as dependências:
+    ```sh
+    npm install
+    ```
+
+4. Inicie o servidor:
+    ```sh
+    npm start
+    ```
+
+## Uso
+
+Depois de seguir os passos de instalação, você pode acessar o site em `http://localhost:3000`. Explore os diferentes recursos do site para aprender mais sobre reciclagem e sustentabilidade.
+
+## Contribuição
+
+Se você deseja contribuir com este projeto, siga estas etapas:
+
+1. Faça um fork do repositório.
+2. Crie um branch para sua feature (`git checkout -b feature/nova-feature`).
+3. Commit suas alterações (`git commit -m 'Adicionei nova feature'`).
+4. Envie para o branch (`git push origin feature/nova-feature`).
+5. Abra um Pull Request.
+
+
+## Contribuidores
