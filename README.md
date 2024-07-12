@@ -10,7 +10,8 @@
 - [Instalação](#instalação)
 - [Uso](#uso)
 - [Contribuição](#contribuição)
-- [Contribuidores](#Contribuidores)
+- [Desenvolvedores](#desenvolvedores)
+- [Protótipo](#protótipo)
 
 ## Descrição
 
@@ -54,5 +55,60 @@ Se você deseja contribuir com este projeto, siga estas etapas:
 4. Envie para o branch (`git push origin feature/nova-feature`).
 5. Abra um Pull Request.
 
+## Desenvolvedores
 
-## Contribuidores
+<div align="center">
+
+<table style="width:100%">
+  <tr align="center">
+    <th><strong>Carolina</strong></th>
+    <th><strong>Bruno Henrique</strong></th>
+    <th><strong>Eunildes Quintan</strong></th>
+    <th><strong>Jailson Santos</strong></th>
+    <th><strong>Kathllyn Leticia</strong></th>
+    <th><strong>Kauan Torres</strong></th>
+    <th><strong>Matheus André</strong></th>
+  </tr>
+  <tr align="center">
+    <td>
+      <a href="">
+        <img width="150" src="">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/Rabello-Bruno">
+        <img width="150" src="https://avatars.githubusercontent.com/u/155013864?v=4">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/quintae">
+        <img width="150" src="">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/J41lson">
+        <img width="150" src="https://avatars.githubusercontent.com/u/113117152?v=4">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/KathllynLeticia">
+        <img width="150" src="https://avatars.githubusercontent.com/u/120657741?v=4">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/okautorres">
+        <img width="150" src="https://avatars.githubusercontent.com/u/88160765?v=4">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/matheusandre1">
+        <img width="150" src="https://avatars.githubusercontent.com/u/92062874?v=4">
+      </a>
+    </td>
+  </tr>
+</table>
+</div>
+
+## Protótipo
+
+Clique [aqui](https://www.figma.com/proto/QPU9Kd6tl8Ios3HTT2kgwq/RECICLAGEM?node-id=1-2&t=xN7S0ydJAHqFGIOy-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&share=1) para acessar o protótipo no Figma.
