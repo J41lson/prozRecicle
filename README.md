@@ -9,7 +9,6 @@
 - [Descrição](#descrição)
 - [Instalação](#instalação)
 - [Uso](#uso)
-- [Contribuição](#contribuição)
 - [Desenvolvedores](#desenvolvedores)
 - [Protótipo](#protótipo)
 
@@ -43,17 +42,7 @@ Para executar este projeto localmente, siga estas etapas:
 
 ## Uso
 
-Depois de seguir os passos de instalação, você pode acessar o site em `http://localhost:3000`. Explore os diferentes recursos do site para aprender mais sobre reciclagem e sustentabilidade.
-
-## Contribuição
-
-Se você deseja contribuir com este projeto, siga estas etapas:
-
-1. Faça um fork do repositório.
-2. Crie um branch para sua feature (`git checkout -b feature/nova-feature`).
-3. Commit suas alterações (`git commit -m 'Adicionei nova feature'`).
-4. Envie para o branch (`git push origin feature/nova-feature`).
-5. Abra um Pull Request.
+Depois de seguir os passos de instalação, você pode acessar o site em **Em Breve**. Explore os diferentes recursos do site para aprender mais sobre reciclagem e sustentabilidade.
 
 ## Desenvolvedores
 
@@ -72,7 +61,7 @@ Se você deseja contribuir com este projeto, siga estas etapas:
   <tr align="center">
     <td>
       <a href="">
-        <img width="150" src="">
+        <img width="150" src="https://imgur.com/lC0CZDe.png">
       </a>
     </td>
     <td>
@@ -82,7 +71,7 @@ Se você deseja contribuir com este projeto, siga estas etapas:
     </td>
     <td>
       <a href="https://github.com/quintae">
-        <img width="150" src="">
+        <img width="150" src="https://imgur.com/d3XCotH.png">
       </a>
     </td>
     <td>
@@ -92,7 +81,7 @@ Se você deseja contribuir com este projeto, siga estas etapas:
     </td>
     <td>
       <a href="https://github.com/KathllynLeticia">
-        <img width="150" src="https://avatars.githubusercontent.com/u/120657741?v=4">
+        <img width="150" src="https://imgur.com/f8Nc4XG.png">
       </a>
     </td>
     <td>
