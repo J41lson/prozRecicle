@@ -4,3 +4,13 @@
 body{
     margin: 0;
 }
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #c3c3c36e;
+}
+.header img {
+    margin-left: 5%;
+    width: 150px;
+    margin-top: -25px;
+}
