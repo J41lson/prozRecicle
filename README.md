@@ -101,3 +101,15 @@ Depois de seguir os passos de instalação, você pode acessar o site em **Em Br
 ## Protótipo
 
 Clique [aqui](https://www.figma.com/proto/QPU9Kd6tl8Ios3HTT2kgwq/RECICLAGEM?node-id=1-2&t=xN7S0ydJAHqFGIOy-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&share=1) para acessar o protótipo no Figma.
+
+## Imagens
+
+![image](https://github.com/user-attachments/assets/2fea0e6b-06d6-470b-a382-8075553e8d68)
+![image](https://github.com/user-attachments/assets/c90985e6-48f4-4e79-b3b9-aaf6617734f1)
+![image](https://github.com/user-attachments/assets/00ac8143-69e0-430a-8af9-c4c2c2fbce39)
+![image](https://github.com/user-attachments/assets/62f64b43-224a-42d6-8a94-c91be378e3ea)
+![image](https://github.com/user-attachments/assets/5d07e4b2-c946-43bf-90cc-7e4d6b85bbff)
+
+
+
+
