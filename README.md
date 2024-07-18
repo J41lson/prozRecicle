@@ -50,7 +50,6 @@ Depois de seguir os passos de instalação, você pode acessar o site em **Em Br
 
 <table style="width:100%">
   <tr align="center">
-    <th><strong>Carolina</strong></th>
     <th><strong>Bruno Henrique</strong></th>
     <th><strong>Eunildes Quintan</strong></th>
     <th><strong>Jailson Santos</strong></th>
@@ -60,18 +59,13 @@ Depois de seguir os passos de instalação, você pode acessar o site em **Em Br
   </tr>
   <tr align="center">
     <td>
-      <a href="">
-        <img width="150" src="https://imgur.com/lC0CZDe.png">
-      </a>
-    </td>
-    <td>
       <a href="https://github.com/Rabello-Bruno">
         <img width="150" src="https://avatars.githubusercontent.com/u/155013864?v=4">
       </a>
     </td>
     <td>
       <a href="https://github.com/quintae">
-        <img width="150" src="https://imgur.com/d3XCotH.png">
+        <img width="150" src="https://imgur.com/Y5UJ5SA.png">
       </a>
     </td>
     <td>
