@@ -10,7 +10,7 @@
 - [Instalação](#instalação)
 - [Uso](#uso)
 - [Contribuição](#contribuição)
-- [Contribuidores](#Contribuidores)
+- [Desenvolvedores](#Desenvolvedores)
 
 ## Descrição
 
@@ -55,4 +55,55 @@ Se você deseja contribuir com este projeto, siga estas etapas:
 5. Abra um Pull Request.
 
 
-## Contribuidores
+## **Desenvolvedores**
+
+<div align=center>
+
+<table style="width:100%">
+  <tr align=center>
+    <th><strong>Carolina</strong></th>
+    <th><strong>Bruno Henrique</strong></th>
+    <th><strong>Eunildes Quintan</strong></th>
+    <th><strong>Jailson Santos</strong></th>
+    <th><strong>Kathllyn Leticia </strong></th>
+    <th><strong>Kauan Torres</strong></th>
+    <th><strong>Matheus André</strong></th>
+  </tr>
+    <tr align=center>
+      <td>
+      <a href="">
+        <img width="150" src="">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/Rabello-Bruno">
+        <img width="150" src="https://avatars.githubusercontent.com/u/155013864?v=4">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/quintae">
+        <img width="150" src="">
+      </a>
+  </td>
+    <td>
+      <a href="https://github.com/J41lson">
+        <img width="110" src="https://avatars.githubusercontent.com/u/113117152?v=4">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/KathllynLeticia">
+        <img width="150" src="https://avatars.githubusercontent.com/u/120657741?v=4">
+      </a>
+       <td>
+      <a href="https://github.com/okautorres">
+        <img width="150" src="https://avatars.githubusercontent.com/u/88160765?v=4">
+      </a>
+    </td>
+      <td>
+      <a href="">
+        <img width="150" src="">
+      </a>
+      </td>
+    </tr>
+</table>
+</div>
