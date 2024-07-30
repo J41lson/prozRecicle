@@ -134,7 +134,7 @@ footer {
 }
 footer ul{
     display: flex;
-    list-style-type: none;
+    list-style-type: none;w
     padding: 0;
     width: 100%;
     justify-content: space-evenly;
