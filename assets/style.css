@@ -1,0 +1,163 @@
+*{
+    font-family: inter;
+}
+body{
+    margin: 0;
+}
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    background-color: rgb(227, 227, 227);
+}
+header img {
+    margin-left: 5%;
+    width: 150px;
+    margin-top: -25px;
+    padding-top: 1%;
+}
+.menu{
+    box-sizing: border-box;
+    width: 100%;
+}
+nav ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    box-sizing: border-box;
+    align-items: center;
+}
+li{
+    position: relative;
+    padding-left: 2%;
+    padding-right: 1%;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+.fale_conosco{
+    margin-right: 2%;
+    background-color: rgb(48, 177, 60);
+    width: 20%;
+    padding: 2% 2% 2% 2%;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+}
+.fale_conosco a{
+    color: white;
+}
+li .flecha {
+    top: 25px;
+    left: -20px;
+    box-sizing: border-box;
+    width: 20px;
+    position: absolute;
+}
+/* 
+    COLETA SELETIVA PÁGINA INICIO ABAIXO:
+
+ */
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+}
+.img1{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -33px;
+
+}
+.img2{
+    position: absolute;
+    margin-right: 45%;
+    margin-top: -33px;
+}
+.header_tittle{
+    display: flex;
+    background-color: #30B13C;
+    color: white;
+    width: 40%;
+    justify-content: center;
+    border-radius: 50px;
+    z-index: 3;
+    align-items: center;
+}
+.header_tittle h1{
+    height: 30px;
+}
+.header2{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.header2 img{
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+}
+.lixos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.lixos img{
+    padding: 40px;
+}
+.fundo {
+    width: 100%;
+    position: absolute;
+    z-index: -1111;
+    height: 50%;
+}
+footer {
+    margin-top: 12%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    list-style-type: none;w
+    padding: 0;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 130px;
+    border: solid #8C8C8C 1px;
+    justify-content: center;
+    align-items: center;
+}
+.footer h3{
+    text-align: center;
+    line-height: 30px;
+    width: 200px;
+    height: 30px;
+    background-color: #217930;
+    color: white;
+    border-radius: 30px;
+}
+/* 
+    FIM COLETA SELETIVA
+
+ */
