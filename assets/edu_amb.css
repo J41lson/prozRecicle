@@ -2,71 +2,87 @@
     font-family: inter;
 }
 body{
-    margin: 0;
-    padding-left: 15px;
-    padding-right: 10px;
+    margin: 0%;
 }
 header{
     align-items: center;
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    height: auto;
-    background-color: rgb(227, 227, 227);
+    max-width: 100%;
+    width: auto;
+    height: 130px;
+    background-color: rgba(195, 195, 195, 0.479);
 }
-header img {
-    margin-left: 5%;
-    width: 150px;
+header .logo {
+    margin-right: -2em;
     margin-top: -25px;
+    padding-top: 10%;
+    width: 150px;
+    margin-left: -50px;
+}
+.link_logo{
+    margin-left: 5%;
     padding-top: 1%;
+    text-decoration: none;
 }
 .menu{
     box-sizing: border-box;
     width: 100%;
 }
-nav ul {
-    width: 100%;
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    box-sizing: border-box;
-    align-items: center;
+
+.menu a:hover {
+    color: green
 }
+
+.fale_conosco:hover{
+    background-color: rgba(76, 56, 9, 1);
+}
+
 li{
     position: relative;
     padding-left: 2%;
     padding-right: 1%;
-    list-style: none;
-    
 }
-a{
-    text-decoration: none;
-    color:black
-}
-
 .fale_conosco{
-    margin-right: 2%;
+    margin-right: 20px;
     background-color: rgb(48, 177, 60);
-    width: 20%;
-    padding: 2% 2% 2% 2%;
-    box-sizing: border-box;
+    width: 200px;
+    height: 2px;
+    padding: 20px 20px 37px 20px;
     text-align: center;
     border-radius: 10px;
+    font-weight: 600;
 }
-.fale_conosco a{
-    color: white;
-}
-li .flecha {
-    top: 25px;
-    left: -20px;
-    box-sizing: border-box;
-    width: 20px;
-    position: absolute;
-}
-/* 
-    COLETA SELETIVA PÁGINA INICIO ABAIXO:
 
- */
+li .flecha {
+    top: 5px;
+    left: -4px;
+    width: 20px;
+    position: relative;
+}
+
+.menu nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu nav ul li {
+    margin-left: 20px;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+#fale_conoscoo{
+    padding: 10px;
+    color: white;
+    margin-right: 0;
+}
 
 .header{
     display: flex;
