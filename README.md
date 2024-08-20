@@ -50,6 +50,7 @@ Depois de seguir os passos de instalação, você pode acessar o site em **Em Br
 
 <table style="width:100%">
   <tr align="center">
+    <th><strong>Carolina</strong></th>
     <th><strong>Bruno Henrique</strong></th>
     <th><strong>Eunildes Quintan</strong></th>
     <th><strong>Jailson Santos</strong></th>
@@ -59,13 +60,18 @@ Depois de seguir os passos de instalação, você pode acessar o site em **Em Br
   </tr>
   <tr align="center">
     <td>
+      <a href="">
+        <img width="150" src="https://imgur.com/lC0CZDe.png">
+      </a>
+    </td>
+    <td>
       <a href="https://github.com/Rabello-Bruno">
         <img width="150" src="https://avatars.githubusercontent.com/u/155013864?v=4">
       </a>
     </td>
     <td>
       <a href="https://github.com/quintae">
-        <img width="150" src="https://imgur.com/Y5UJ5SA.png">
+        <img width="150" src="https://imgur.com/d3XCotH.png">
       </a>
     </td>
     <td>
@@ -103,7 +109,6 @@ Clique [aqui](https://www.figma.com/proto/QPU9Kd6tl8Ios3HTT2kgwq/RECICLAGEM?node
 ![image](https://github.com/user-attachments/assets/00ac8143-69e0-430a-8af9-c4c2c2fbce39)
 ![image](https://github.com/user-attachments/assets/62f64b43-224a-42d6-8a94-c91be378e3ea)
 ![image](https://github.com/user-attachments/assets/5d07e4b2-c946-43bf-90cc-7e4d6b85bbff)
-
 
 
 
