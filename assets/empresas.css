@@ -281,5 +281,5 @@ footer h3 {
     background-image: url('imgs/image\ copy.png'), url('imgs/image.png'), url('imgs/imagecopy3.png'), url('imgs/image\ copy\ 5.png'), url('imgs/image\ copy\ 5.png'), url('imgs/image\ copy\ 2.png'), url('imgs/image\ copy\ 4.png');
     background-repeat: no-repeat;
     background-size:1300px, 500px, 130px, 130px, 70px, 100px, 50px;
-    background-position: top 111% right, top 111% right, bottom 5% left 102%, bottom left, bottom 6% left, top 100% right, top 100% right 5%;
+    background-position: top 100% right, top 100% right, bottom 5% left 102%, bottom left, bottom 6% left, top 100% right, top 100% right 5%;
 }
