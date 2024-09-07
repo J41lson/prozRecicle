@@ -193,6 +193,37 @@ section{
     margin-right: 20px;
 }
 
+/* Oculta as mensagens de erro inicialmente */
+.error-message {
+    display: none;
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+/* Estilo padrão do campo de entrada */
+input {
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+/* Estilo quando o campo é válido */
+input.valid {
+    background-color: #BBCCBB;
+    border: solid 2px #206620;
+  color: #206620;
+}
+
+/* Estilo quando o campo é inválido */
+input.invalid {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+}
+
 .cadastro h2 {
     text-align: center;
     margin-top: 0;

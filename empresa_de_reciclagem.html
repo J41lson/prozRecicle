@@ -149,31 +149,31 @@
       <!-- </article> -->
     </div>
 
-      <div class="cadastro">
-        <form action="#">
+    <div class="cadastro">
+      <form action="#" id="cadastroForm">
           <h2>CADASTRE SUA EMPRESA</h2>
           <div>
-            <label>E-mail / CNPJ</label><br />
-            <input
-              type="text"
-              placeholder="email@email.com.br   ou 00.000.000/0000-00"
-              required
-            />
-            <br />
-            <label>Senha</label>
-            <input type="password" placeholder="********" required />
-            <a id="text" href="">esqueci a senha</a>
+              <label for="emailCnpj">E-mail / CNPJ</label><br />
+              <input
+                  type="text"
+                  id="emailCnpj"
+                  placeholder="email@email.com.br ou 00.000.000/0000-00"
+                  required
+              />
+              <small class="error-message" id="emailCnpjError">* Por favor, insira um email ou CNPJ válido.</small>
+              <br />
+              <label for="senha">Senha</label>
+              <input type="password" id="senha" placeholder="********" required />
+              <small class="error-message" id="senhaError">* O campo de senha deve ser preenchido.</small>
+              <a id="text" href="#">esqueci a senha</a>
           </div>
-
-          <button>Entrar / Cadastre-se</button>
-
+          <button type="submit">Entrar / Cadastre-se</button>
           <p>
-            Ao continuar, você concorda em receber comunicação do PROZ recicle.
-            Confira nossa Declaração de Privacidade.
+              Ao continuar, você concorda em receber comunicação do PROZ recicle.
+              Confira nossa Declaração de Privacidade.
           </p>
-        </form>
-        </div>
-      </div>
+      </form>
+    </div>
         
     </main>
 

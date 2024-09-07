@@ -62,6 +62,15 @@ const empresas = [
         instagram: "#",
         resumo: "A Luvitec é uma empresa de coleta de lixo recicláveis que compra todo tipo de material reciclável como papel, papelão, plástico, sucata de ferro e metais."
     },
+    {
+        nome: "Tombstone",
+        logo: "./assets/imgs/tombstane.png",
+        telefone: "#",
+        whatsapp: "#",
+        email: "#",
+        instagram: "#",
+        resumo: "Há 21 anos, a Tombstone Reciclagem é uma empresa de reciclagem de papel e papelão que atua no mercado com certificações ISO 9001 e ISO 14001."
+    }
 ];
 
 const container = document.getElementById('empresas');
@@ -125,4 +134,57 @@ empresas.forEach(empresa => {
 
     // Adiciona a seção ao contêiner
     container.appendChild(section);
+});
+const emailCnpjInput = document.getElementById('emailCnpj');
+const senhaInput = document.getElementById('senha');
+const emailCnpjError = document.getElementById('emailCnpjError');
+const senhaError = document.getElementById('senhaError');
+
+// Função para validar email ou CNPJ
+function validateEmailCnpj() {
+    const emailCnpjValue = emailCnpjInput.value;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Valida o formato do email
+    const cnpjRegex = /^\d{2}\.\d{3}\.\d{3}\/\d{4}-\d{2}$/; // Valida o formato do CNPJ
+
+    if (emailCnpjValue === '' || (!emailRegex.test(emailCnpjValue) && !cnpjRegex.test(emailCnpjValue))) {
+        emailCnpjInput.classList.add('invalid');
+        emailCnpjInput.classList.remove('valid');
+        emailCnpjError.style.display = 'block';
+    } else {
+        emailCnpjInput.classList.remove('invalid');
+        emailCnpjInput.classList.add('valid');
+        emailCnpjError.style.display = 'none';
+    }
+}
+
+// Função para validar a senha
+function validateSenha() {
+    const senhaValue = senhaInput.value;
+
+    if (senhaValue === '') {
+        senhaInput.classList.add('invalid');
+        senhaInput.classList.remove('valid');
+        senhaError.style.display = 'block';
+    } else {
+        senhaInput.classList.remove('invalid');
+        senhaInput.classList.add('valid');
+        senhaError.style.display = 'none';
+    }
+}
+
+// Event listeners para ativar a validação ao clicar ou digitar nos campos
+emailCnpjInput.addEventListener('input', validateEmailCnpj);
+emailCnpjInput.addEventListener('focus', validateEmailCnpj);
+senhaInput.addEventListener('input', validateSenha);
+senhaInput.addEventListener('focus', validateSenha);
+
+// Validação final ao submeter o formulário
+document.getElementById('cadastroForm').addEventListener('submit', function(event) {
+    validateEmailCnpj();
+    validateSenha();
+
+    // Evita o envio do formulário se houver erros
+    if (emailCnpjInput.classList.contains('invalid') || senhaInput.classList.contains('invalid')) {
+        event.preventDefault();
+    }
 });
