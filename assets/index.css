@@ -3,6 +3,9 @@
 }
 body{
     margin: 0%;
+    /* padding-bottom: 1%; */
+    /* border: 2px solid; */
+    /* box-sizing: border-box; */
 }
 header{
     align-items: center;
@@ -13,19 +16,19 @@ header{
     background-color: rgba(195, 195, 195, 0.479);
 }
 header .logo {
-    margin-right: -2em;
+    /* margin-right: -2em; */
     margin-top: -25px;
-    padding-top: 10%;
+    padding-left: 15%;
     width: 150px;
-    margin-left: -50px;
+    /* margin-left: -50px; */
 }
 .link_logo{
-    margin-left: 5%;
+    /* margin-left: 5%; */
     padding-top: 1%;
     text-decoration: none;
 }
 .menu{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     width: 100%;
 }
 
@@ -37,17 +40,12 @@ header .logo {
     background-color: rgba(76, 56, 9, 1);
 }
 
-li{
-    position: relative;
-    padding-left: 2%;
-    padding-right: 1%;
-}
 .fale_conosco{
-    margin-right: 20px;
+    /* margin-right: 20px; */
     background-color: rgb(48, 177, 60);
     width: 200px;
-    height: 2px;
-    padding: 20px 20px 37px 20px;
+    height: auto;
+    padding: 20px;
     text-align: center;
     border-radius: 10px;
     font-weight: 600;
@@ -66,22 +64,19 @@ li .flecha {
     padding: 0;
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content:space-evenly;
     align-items: center;
 }
 
-.menu nav ul li {
-    margin-left: 20px;
-}
 
 .menu nav ul li a {
     text-decoration: none;
     color: #333;
 }
 #fale_conoscoo{
-    padding: 10px;
+    /* padding: 10px; */
     color: white;
-    margin-right: 0;
+    /* margin-right: 0; */
 }
 
 main {
