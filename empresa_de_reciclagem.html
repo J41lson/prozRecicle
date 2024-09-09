@@ -41,138 +41,46 @@
       <h1>Empresas De Reciclagem</h1>
       <div class="container">
     
-      <div class="principal"><article>
-        <section>
+      <div id="empresas" class="principal">
           <div class="redes">
-            <img src="./assets/imgs/ecobrans.png" width="270" height="51" title="Ecotrans" alt="Ecotrans" />
-            <h5>Contatos</h5>
-            <ul class="social-list">
-              <li aria-label="Telefone">
-                <a href="#" target="_blank"
-                  ><img src="./assets/imgs/telefone.png" title="Telefone" alt="Telefone"
-                /></a>
-              </li>
-              <li aria-label="WhatsApp">
-                <a href="#"><img src="./assets/imgs/whatsApp.png" title="WhatsApp" alt="WhatsApp" /></a>
-              </li>
-              <li aria-label="Email">
-                <a href="#" target="_blank"
-                  ><img src="./assets/imgs/email.png" title="Email" alt="Email"
-                /></a>
-              </li>
-              <li aria-label="Instagram">
-                <a href="#" target="_blank"
-                  ><img src="./assets/imgs/instagram.png" title="Instagram" alt="Instagram"
-                /></a>
-              </li>
-            </ul>
+
           </div>
 
           <div class="texto">
-            <p>
-              A empresa <strong>Ecotrans</strong> de coleta de lixo é responsável pela reciclável
-              e é aliada no saneamento básico.
-            </p></div>
-        </section>
-
-        <section>
+          </div>
           <div class="redes">
-            <img src="./assets/imgs/tombstane.png" width="257" height="54.08" title="Tombstone" alt="Tombstone" />
-            <h5>Contatos</h5>
-            <ul class="social-list">
-              <li aria-label="Telefone">
-                <a href="#" target="_blank"
-                  ><img src="./assets/imgs/telefone.png" title="Telefone" alt="Telefone"
-                /></a>
-              </li>
-              <li aria-label="WhatsApp">
-                <a href="#"><img src="./assets/imgs/whatsApp.png" title="WhatsApp" alt="WhatsApp"/></a>
-              </li>
-              <li aria-label="Email">
-                <a href="#" target="_blank"
-                  ><img src="./assets/imgs/email.png" title="Email" alt="Email"
-                /></a>
-              </li>
-              <li aria-label="Instagram">
-                <a href="#" target="_blank"
-                  ><img src="./assets/imgs/instagram.png" title="Instagram" alt="Instagram"
-                /></a>
-              </li>
-            </ul>
           </div>
           <div class="texto">
-            <p>
-              Há 21 anos, a <strong>Tombstone</strong> Recilagem é uma empresa de reciclagem de
-              papel e papelão que atua no mercado com certificações ISO +=9001 e
-              ISO 14001, com uma equipe especializada e auxilio nas boas
-              práticas dentro das empresas
-            </p>
           </div>
-        </section>
-
-        <section>
           <div class="redes">
-            <img src="./assets/imgs/Luvitec.png" alt="Luvitec" title="Luvitec" />
-            <h5>Contatos</h5>
-            <ul class="social-list">
-              <li aria-label="Telefone">
-                <a href="#" target="_blank"
-                  ><img src="./assets/imgs/telefone.png" title="Telefone" alt="Telefone"
-                /></a>
-              </li>
-              <li aria-label="WhatsApp">
-                <a href="#"><img src="./assets/imgs/whatsApp.png" title="WhatsApp" alt="WhatsApp" />
-                </a>
-              </li>
-              <li aria-label="Email">
-                <a href="#" target="_blank"
-                  ><img src="./assets/imgs/email.png" title="Email" alt="Email"
-                /></a>
-              </li>
-              <li aria-label="Instagram">
-                <a href="#" target="_blank"
-                  ><img src="./assets/imgs/instagram.png" title="Instagram" alt="Instagram"
-                /></a>
-              </li>
-            </ul>
           </div>
-            <p class="ultima">
-              A <strong>Luvitec</strong> é uma empresa de coleta de lixo
-              recicláveis compra todo tipo de material reciclável como papel,
-              papelão, plástico, sucata de ferro e metais. São materiais das
-              sobras de produções industriais, supermercados, empresas
-              varejistas entre outros grandes geradores de resíduos.
-            </p>
-          
-        </section>
-      </article>
     </div>
 
-      <div class="cadastro">
-        <form action="#">
+    <div class="cadastro">
+      <form action="#" id="cadastroForm">
           <h2>CADASTRE SUA EMPRESA</h2>
           <div>
-            <label>E-mail / CNPJ</label><br />
-            <input
-              type="text"
-              placeholder="email@email.com.br   ou 00.000.000/0000-00"
-              required
-            />
-            <br />
-            <label>Senha</label>
-            <input type="password" placeholder="********" required />
-            <a id="text" href="">esqueci a senha</a>
+              <label for="emailCnpj">E-mail / CNPJ</label><br />
+              <input
+                  type="text"
+                  id="emailCnpj"
+                  placeholder="email@email.com.br ou 00.000.000/0000-00"
+                  required
+              />
+              <small class="error-message" id="emailCnpjError">* Por favor, insira um email ou CNPJ válido.</small>
+              <br />
+              <label for="senha">Senha</label>
+              <input type="password" id="senha" placeholder="********" required />
+              <small class="error-message" id="senhaError">* O campo de senha deve ser preenchido.</small>
+              <a id="text" href="#">esqueci a senha</a>
           </div>
-
-          <button>Entrar / Cadastre-se</button>
-
+          <button type="submit">Entrar / Cadastre-se</button>
           <p>
-            Ao continuar, você concorda em receber comunicação do PROZ recicle.
-            Confira nossa Declaração de Privacidade.
+              Ao continuar, você concorda em receber comunicação do PROZ recicle.
+              Confira nossa Declaração de Privacidade.
           </p>
-        </form>
-        </div>
-      </div>
+      </form>
+    </div>
         
     </main>
 
@@ -199,5 +107,6 @@
         </li>
       </ul>
     </footer>
+  <script src="script/empresa.js" defer></script>
   </body>
 </html>
