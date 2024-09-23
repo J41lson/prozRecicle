@@ -110,7 +110,11 @@ empresas.forEach(empresa => {
         a.target = '_blank';
 
         const imgContato = document.createElement('img');
-        imgContato.src = `./assets/imgs/${contato}.png`;
+        if (contato === 'whatsapp') {
+            imgContato.src = './assets/imgs/whatsApp.png';
+        } else {
+            imgContato.src = `./assets/imgs/${contato}.png`;
+        }
         imgContato.alt = contato.charAt(0).toUpperCase() + contato.slice(1);
         imgContato.title = contato.charAt(0).toUpperCase() + contato.slice(1);
 
@@ -120,6 +124,7 @@ empresas.forEach(empresa => {
     });
 
     divRedes.appendChild(ul);
+
 
     // Criação do parágrafo de resumo
     const divTexto = document.createElement('div');
